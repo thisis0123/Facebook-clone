@@ -1,0 +1,150 @@
+body {
+    background-color: #eaeef5;
+    font-family: Arial;
+    height: 1000px;
+    
+}
+
+.flexbox1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 497px;
+  padding-top: 100px;
+  
+  
+}
+
+.Facebook {
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+
+.company-image {
+  height: 106px;
+  margin: -10px;
+}
+
+.company-saying {
+  font-weight: 500;
+  font-size: 20px;
+  width: 320px;
+  margin-left: 20px;
+}
+
+.outer-flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+  padding: 15px;
+  width: 300px;
+  height: 270px;
+}
+
+.email-box {
+  display: block;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 6px;
+  padding: 15px 120px 15px 10px;
+
+}
+.email-box::placeholder {
+  margin-left: 1px;
+  
+}
+
+.password-box {
+  margin-top: 10px;
+  display: block;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 6px;
+  padding: 15px 120px 15px 10px;
+}
+
+.div-button {
+  display: flex;
+  margin-top: 10px;
+  
+}
+
+.login-button {
+  background-color: #0866ff;
+  border: none;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  flex: 1;
+  transition: background-color 0.15s;
+}
+
+.login-button:hover {
+  background-color: #1c72fd;
+}
+
+.flexbox3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.first-anchor {
+  color: #1c72fd;;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+}
+
+.first-anchor:hover {
+  text-decoration: underline;
+}
+
+.flexbox4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.create-button {
+  background-color: rgb(66, 183, 42);
+  color: white;
+  border: none;
+  padding: 10px 12px 10px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.create-button:hover {
+  background-color: rgb(58, 153, 39);
+}
+
+.celebrity-page {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.second-anchor {
+  
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.second-anchor:hover {
+  text-decoration: underline;
+}

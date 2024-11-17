@@ -1,0 +1,411 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  
+}
+
+
+.first-div {
+  width: 470px;
+  height: 110px;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  background-color: white;
+}
+
+.second-div{
+  width: 500px;
+  margin-bottom: 20px;
+  
+  
+}
+
+.second-div,
+.like-comment-send-share-flexbox {
+  display: flex;
+}
+
+
+
+.first-flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.current-state {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  color: rgb(94, 92, 92);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  flex: 1;
+  height: 40px;
+  transition: background-color 0.15s;
+  
+}
+
+
+.current-state div {
+  margin-left: 10px;
+  
+}
+
+.current-state:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+
+.image1,
+.info img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: filter 0.15s;
+  
+}
+
+.div-image1 {
+  margin-right: 6px;
+}
+
+.image1:hover {
+  filter: brightness(90%);
+}
+
+.second-flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-flexbox .a {
+  display: flex;
+  flex: 1;
+  height:40px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.second-flexbox div {
+  font-size: 14px;
+}
+
+.second-flexbox img {
+  margin-right: 6px;
+}
+
+.second-flexbox .a:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+
+.create-story,
+.story {
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 100px;
+  height: 180px;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+
+.create {
+  display: flex;  
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.create-story {
+  position: relative;
+  background-color: white;
+}
+
+.create-story:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.create-story-image{
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  transition: transform 0.15s, filter 0.15s;
+
+}
+
+.create-story:hover img {
+  transform: scale(1.010);
+  filter: brightness(90%);
+}
+
+
+.plus-sign {
+  position: absolute;
+  height: 30px;
+  bottom: 30px;
+  right:35px;
+  border-radius: 50%;
+}
+
+.story {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.story-image {
+  height: 100%;
+  transition: transform 0.15s, filter 0.15s;
+  border-radius: 10px;
+}
+
+.story:hover img {
+transform: scale(1.010);
+filter: brightness(90%);
+}
+
+
+.profile-image {
+  width: 30px;
+  height: 30px;
+  border-width: thick;
+  border-style: solid;
+  border-color: white;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+
+.name {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+.person-post {
+  width: 500px;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.person-post {
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-image-post {
+  margin-left: 10px;
+  
+}
+
+.profile-image-post:hover {
+  filter: brightness(90%);
+}
+
+.date-name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.date-name strong{
+  margin-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.date-name span{
+  margin-left: 10px;
+  font-size: 12px;
+  color: gray;
+  cursor: pointer;
+}
+
+.date-name div {
+  margin-bottom: 2px;
+  
+}
+
+.name-follow-div {
+  display: flex;
+}
+
+.name-follow-div span {
+  color: rgb(31, 146, 253);
+   font-size: 14px;;
+   font-weight: bold;
+}
+
+.three-dots,
+.x-sign {
+  display: flex;
+  padding: 8px;
+  position: absolute;
+  right: 40px;
+  border-radius: 50%;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.x-sign{
+  right: 5px;
+  color: gray;
+}
+
+
+.three-dots:hover,
+.x-sign:hover {
+  background-color: rgb(226, 224, 224);
+}
+
+.writing {
+  padding: 4px 16px 10px 16px;
+}
+
+.writing p{
+  margin: 0;
+  font-size: 14px;
+  font-family: inherit;
+  margin-bottom: 5px;
+  line-height: 18px;
+
+ 
+}
+
+.colorme-blue {
+  color: rgb(43, 43, 231);
+  font-weight: bold;
+}
+
+.photos {
+  display: flex;
+  column-gap: 2px;
+}
+
+.first-pillar,
+.second-pillar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1px;
+  flex: 1;
+}
+
+.first-pillar div,
+.second-pillar div {
+  flex: 1;
+}
+
+.first-pillar img,
+.second-pillar img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  
+}
+
+
+.comment-like-icon-flexbox{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+} 
+
+.like-love-flexbox,
+.comment-share-icon-flexbox {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.like-love-flexbox img,
+.comment-share-icon-flexbox img,
+.like-comment-send-share-flexbox img{
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.like-comment-send-share-flexbox .comments-image{
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+}
+
+.likes-number {
+  margin-left: 5px;
+}
+
+.share-number {
+  margin-left: 10px;
+}
+
+.share-number,
+.comment-number {
+  margin-right: 2px;
+}
+
+.like-comment-send-share-flexbox .flexbox {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.like2,
+.comments2,
+.send,
+.share2 {
+  margin-left: 7px;
+  font-size: 16px;
+  color: gray;
+  font-weight: bold;
+}
+
+.like2 {
+  padding-top: 2px;
+}
+
+.comments2 {
+  margin-left: 4px;
+  padding-top: 2px;
+}
+
+.like-comment-send-share-flexbox {
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.like-comment-send-share-flexbox .flexbox:hover {
+  background-color: rgb(243, 243, 243);
+}

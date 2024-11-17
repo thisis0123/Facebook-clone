@@ -1,0 +1,195 @@
+.header {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+  z-index: 100;
+  
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.facebook-logo {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.search-bar {
+  height: 35px;
+  width: 220px;
+  background-color: rgb(236, 236, 236);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding-left: 33px;
+  
+  
+}
+
+.search-bar::placeholder{
+  font-size: 14px;
+}
+
+.search-button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 54px;
+  top: 13px;
+  background-color: rgb(236, 236, 236);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+
+@media (max-width: 930px) {
+  header .middle-section {
+    display: none;   
+  }
+
+  header .right-section{
+    margin-left: 0;
+  }
+ 
+}
+
+
+
+.middle-section {
+  display: flex;
+  min-width: 200px;
+  max-width: 600px;
+  flex: 1;
+  margin-left: 50px;
+  
+}
+
+.middle-section div {
+  display: flex;
+  flex: 1;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.middle-section div:hover {
+  background-color: lightgray;
+}
+
+.middle-section .tooltip,
+.right-section .tooltip {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: -30px;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+  pointer-events: none;
+  height: auto;
+  width: auto;
+  transition: display 1s;
+}
+
+.middle-section div:hover .tooltip,
+.right-section div:hover .tooltip{
+  display: inline-block;
+}
+
+
+
+
+.right-section {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+  margin-right: 10px;
+  margin-left: 200px;
+  flex-shrink: 0;
+}
+
+.header-profile-picture-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.header-profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+  
+}
+
+
+
+.header-profile-picture:hover {
+  filter: brightness(90%);
+}
+
+.header-profile-picture-div .panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 1px;
+  background-color: rgb(224, 221, 221);
+  border-radius: 50%;
+  bottom: 0;
+  right: 2px;
+
+}
+
+.menu-div,
+.messenger-div,
+.notifications-div {
+  display: flex;
+  background-color: rgb(238, 234, 234);
+  padding: 10px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.messages-number,
+.notifications-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgb(221, 7, 7);
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  padding: 1px 4px 1px 4px;
+  border-radius: 50%;
+  top: -5px;
+  right: -4px;
+}
+
+.menu-div:hover,
+.messenger-div:hover,
+.notifications-div:hover {
+  background-color: rgb(206, 206, 206);
+}
