@@ -70,10 +70,10 @@ body {
   padding: 15px 120px 15px 10px;
 }
 
-.div-button {
+.div-button a{
   display: flex;
-  margin-top: 10px;
-  
+  margin-top: 10px; 
+  text-decoration: none;
 }
 
 .login-button {
